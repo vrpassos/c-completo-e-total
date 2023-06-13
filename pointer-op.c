@@ -3,12 +3,12 @@
 int main(){
 
     int i, pt, *m;
-
+ 
     i = 1;
     m = &i;
     pt = *m;
 
-    printf("Endereço: %n\n",m);
+    printf("Endereço: %p\n",m);
     printf("Valor: %d\n",pt);
 
     printf("Tamanho da variável: %ld\n",sizeof i);
